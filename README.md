@@ -13,7 +13,7 @@
 * Run the `docker-compose up -d`.
 
 ```shell
-git clone https://github.com/harshalone/docker-compose-lamp.git
+git clone https://github.com/juanlll/docker-compose-lamp-php71sqlsrv
 cd docker-compose-lamp/
 cp sample.env .env
 // modify sample.env as needed
