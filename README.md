@@ -21,7 +21,7 @@ docker-compose up -d
 // visit localhost
 ```
 
-##  Cambios en el Dockerfile de php71
+##  Cambios realizados en el Dockerfile de php71
 
   ruta: docker-compose-lamp/bin/php71/Dockerfile
   
@@ -29,7 +29,7 @@ docker-compose up -d
     RUN apt-get -y install unixodbc-dev
     RUN pecl install sqlsrv-4.1.6.1 pdo_sqlsrv-4.1.6.1
   ```
-  ##  Cambios en el php.ini 
+  ##  Cambios realizados en el php.ini 
   
   ruta: docker-compose-lamp/config/php/php.ini
   
